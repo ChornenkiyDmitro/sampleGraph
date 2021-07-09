@@ -4,12 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backGraph"
     tools:context=".MainActivity">
 
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/chat"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@color/backg"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/graph_style"
+        app:layout_constraintEnd_toEndOf="@+id/chat"
+        app:layout_constraintStart_toStartOf="@+id/chat"
+        app:layout_constraintTop_toTopOf="@+id/chat" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

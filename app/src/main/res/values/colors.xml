@@ -7,5 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="backg">#252836</color>
+
+
+    <color name="colorPrimary">#4189F5</color>
+    <color name="backGraph">#252836</color>
+    <color name="whiteGraph">#08FFFFFF</color>
+    <color name="gradientGraphTop">#80287EFF</color>
+    <color name="gradientGraphBot">#004189F5</color>
+
 </resources>
